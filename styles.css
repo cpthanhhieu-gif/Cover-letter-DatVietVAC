@@ -273,6 +273,18 @@ h2 em {
 .button-ghost {
   border: 1px solid rgba(247, 245, 242, 0.42);
 }
+.button-card {
+  margin-top: auto;
+  padding: 9px 11px;
+  gap: 15px;
+  border: 1px solid rgba(5, 5, 5, 0.5);
+  font-size: 9px;
+  color: var(--ink);
+  align-self: flex-start;
+}
+.button-card span {
+  font-size: 13px;
+}
 .fit {
   background: var(--coral);
   max-width: none;
@@ -321,8 +333,10 @@ h2 em {
   border-top: 1px solid rgba(5, 5, 5, 0.28);
 }
 .capabilities article {
-  padding: 25px 35px 0 0;
-  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 35px 24px 0;
+  min-height: 292px;
   border-right: 1px solid rgba(5, 5, 5, 0.28);
 }
 .capabilities article + article {
@@ -349,6 +363,7 @@ h2 em {
   line-height: 1.7;
   color: rgba(5, 5, 5, 0.7);
   max-width: 290px;
+  margin-bottom: 0;
 }
 .practice {
   padding-top: 112px;
